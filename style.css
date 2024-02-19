@@ -1,0 +1,57 @@
+.nav-item{
+    padding:7px;
+}
+.nav-item>a{
+font-weight: bold;
+color: white;
+}
+.nav-item>a:hover{
+    color:chocolate;
+}
+.img{
+    position: relative;
+}
+.baner{
+    width: 100%;
+    height: 600px;
+}
+.banner-text{
+    position: absolute;
+    top:20%;
+    left:7%;
+    display:block;
+    margin: auto;
+}
+.conatiner-col{
+        background: url(services-bg.png);
+        background-size: 100% 500px;
+        background-repeat:no-repeat;
+        }
+        .conatiner-position{
+           width:100%; 
+           height:500px;  
+           padding:50px;
+           display: flex;
+           align-items: center;
+        }
+        @media screen and (max-width:994px){
+            .conatiner-col{
+                background-size: 100% 900px; 
+            }
+            .conatiner-position{
+                height:900px;
+            }
+        }
+        @media screen and (max-width:400px){
+            .conatiner-col{
+                background-size: 100% 1100px; 
+            }
+            .conatiner-position{
+                height:1100px;
+            }
+        }
+        .Conact-img{
+            background: url(img-9.png);
+            background-size: 100% 500px;
+            background-repeat: no-repeat;  
+        }
